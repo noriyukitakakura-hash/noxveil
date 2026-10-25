@@ -1,0 +1,39 @@
+/* The app's own palette: paper on dark, amber for anything that leads. */
+:root {
+  --ink: #d1a34f;
+  --dim: #8c6b36;
+  --paper: #f2e6cc;
+  --dark: #0a0908;
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  padding: 3rem 1.5rem 6rem;
+  background: var(--dark);
+  color: var(--paper);
+  font: 17px/1.65 -apple-system, BlinkMacSystemFont, "Helvetica Neue", sans-serif;
+}
+main { max-width: 38rem; margin: 0 auto; }
+h1 {
+  font: 300 2rem/1.2 ui-monospace, SFMono-Regular, Menlo, monospace;
+  color: var(--ink);
+  margin: 0 0 1.5rem;
+}
+h2 {
+  font: 400 0.8rem/1.4 ui-monospace, SFMono-Regular, Menlo, monospace;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--dim);
+  margin: 2.75rem 0 0.6rem;
+}
+a { color: var(--ink); }
+.lede { color: var(--ink); font-size: 1.1rem; }
+.date { color: var(--dim); font-size: 0.85rem; margin-top: 3rem; }
+.todo {
+  border: 1px solid var(--ink);
+  padding: 0.8rem 1rem;
+  color: var(--ink);
+  font: 0.9rem/1.5 ui-monospace, SFMono-Regular, Menlo, monospace;
+}
+nav { margin-bottom: 2.5rem; font: 0.85rem ui-monospace, SFMono-Regular, Menlo, monospace; }
+nav a { margin-right: 1.2rem; color: var(--dim); }

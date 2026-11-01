@@ -29,11 +29,5 @@ h2 {
 a { color: var(--ink); }
 .lede { color: var(--ink); font-size: 1.1rem; }
 .date { color: var(--dim); font-size: 0.85rem; margin-top: 3rem; }
-.todo {
-  border: 1px solid var(--ink);
-  padding: 0.8rem 1rem;
-  color: var(--ink);
-  font: 0.9rem/1.5 ui-monospace, SFMono-Regular, Menlo, monospace;
-}
 nav { margin-bottom: 2.5rem; font: 0.85rem ui-monospace, SFMono-Regular, Menlo, monospace; }
 nav a { margin-right: 1.2rem; color: var(--dim); }
